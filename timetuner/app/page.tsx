@@ -1,5 +1,5 @@
-import RetroRadioBoombox from "@/components/RetroRadioBoombox";
+import RetroRadio from "@/components/RetroRadio";
 
 export default function Home() {
-  return <RetroRadioBoombox />;
+  return <RetroRadio />;
 }
