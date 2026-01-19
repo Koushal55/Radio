@@ -1,6 +1,4 @@
-```
 
-```
 # 📻 Time Tuner (Retro Radio)
 
 A photorealistic, physics-based retro radio interface built with **Next.js** and **Framer Motion**. It allows users to "time travel" by tuning a dial to a specific year (2000–2026), instantly playing hit songs from that era via a hidden YouTube player.
@@ -69,12 +67,3 @@ Open [http://localhost:3000](https://www.google.com/search?q=http://localhost:30
 * *Dev Mode:* Checks `staticSongs.ts` for a curated list of hits to save API quota.
 * *Live Mode:* Queries YouTube API with filters (e.g., `-remix`, `official video`) to ensure high-quality playback.
 4. **The Player:** A hidden `react-youtube` iframe handles the audio. The UI overlays static noise during buffering states.
-
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-```
-
-```
